@@ -491,7 +491,7 @@ input.onButtonPressed(Button.A, function () {
         `).showImage(9)
 })
 input.onButtonPressed(Button.AB, function () {
-    for (let index = 0; index < 4; index++) {
+    for (let index = 0; index < 10; index++) {
         basic.showNumber(input.temperature())
         if (input.temperature() > 28) {
             music.startMelody(music.builtInMelody(Melodies.Funeral), MelodyOptions.Once)
